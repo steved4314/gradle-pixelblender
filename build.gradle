@@ -1,0 +1,16 @@
+plugins {
+    id 'java-gradle-plugin'
+}
+
+group 'com.github.steved4314'
+version '1.0'
+
+gradlePlugin {
+    plugins {
+        pixelBlender {
+            id = 'com.github.steved4314.pixelblender'
+            implementationClass = 'com.github.steved434.pixelblender.PixelBlenderPlugin'
+        }
+    }
+}
+
